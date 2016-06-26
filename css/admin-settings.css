@@ -1,0 +1,100 @@
+.chosen-item {
+	color: #fff;
+    background-color: #008EC2 !important;
+}
+.chosen-item i {
+    color: #fff !important;
+}
+.hidden-option {
+    display: none;
+}
+.section-header {
+	display: block;
+	width: 100%;
+}
+.sb-container {
+
+}
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.list-group-item {
+	width: 100%;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+    transition: all .5s;
+    cursor: move;
+}
+.sb-item-container {
+	width: 100%;
+    display: table;
+}
+.sb-item-container div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.sb-disabled-item {
+    background-color: #d3d3d3;
+}
+#sb-edit-item-container {
+    display: none;
+}
+/*Item appearance */
+.sb-item {
+    width: 100%;
+}
+.sb-enable { 
+    width: 3%;
+}
+.sb-icon {
+    margin : 0 1%;
+    width: 5%;
+}
+.sb-icon img {
+    width: 100%;
+}
+.sb-icon i {
+    text-align: center;
+    width: 100%;
+    color: #008EC2;
+    font-size: 3em;
+}
+.sb-controls {
+    text-align: right;
+    width: 10%;
+}
+.sb-controls .js-remove{
+    color : red;
+}
+.sb-controls .js-edit{
+    color : green;
+}
+.sb-controls i {
+    font-size: 2.2em;
+    cursor : pointer;
+}
+.sb-title p {
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sb-title  {
+    width: 80%;
+}
+.sb-list {
+}
+.sb-list-container {
+    position:relative;  
+	width: 80%;
+	margin: 0 auto; 
+}
+
